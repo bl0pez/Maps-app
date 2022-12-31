@@ -26,7 +26,6 @@ export const PlacesProvider = ({ children }: Props) => {
         .then(lngLat => dispatch({ type: 'setUserLocation', payload: lngLat }));
     }, [])
     
-
   return (
     <PlacesContext.Provider value={{
         ...state,
