@@ -14,7 +14,8 @@ body{
   background: rgba(35, 35, 35, 0.5);
 }
 
-.loading-map > h3, span{
+.loading-map > h3,
+.loading-map > span{
   animation: loading 1.5s linear infinite;
   color: #fff;
 }

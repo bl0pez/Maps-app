@@ -1,4 +1,4 @@
-import { MapView } from '../components';
+import { BtnMyLocation, MapView } from '../components';
 
 export const Home = () => {
     
@@ -6,6 +6,7 @@ export const Home = () => {
   return (
     <>
         <MapView />
+        <BtnMyLocation />
     </>
   )
 }
