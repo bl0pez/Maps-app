@@ -1,4 +1,4 @@
-import { BtnMyLocation, MapView } from '../components';
+import { BtnMyLocation, MapView, BlopezLogo } from '../components';
 
 export const Home = () => {
     
@@ -7,6 +7,7 @@ export const Home = () => {
     <>
         <MapView />
         <BtnMyLocation />
+        <BlopezLogo />
     </>
   )
 }

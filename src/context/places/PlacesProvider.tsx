@@ -23,7 +23,9 @@ export const PlacesProvider = ({ children }: Props) => {
 
     useEffect(() => {
       getUserLocation()
-        .then(lngLat => dispatch({ type: 'setUserLocation', payload: lngLat }));
+        .then(lngLat => {
+          dispatch({ type: 'setUserLocation', payload: lngLat })
+        });
     }, [])
     
   return (

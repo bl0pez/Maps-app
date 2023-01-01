@@ -7,6 +7,7 @@ export const MapView = () => {
     const { isLoading, userLocation } = useContext(PlacesContext);
     const { setMap } = useContext(MapContext);
     
+
     const mapDiv = useRef<HTMLDivElement>(null);
 
     useLayoutEffect(() => {
@@ -37,7 +38,6 @@ export const MapView = () => {
                 top: 0,
             }}
         >
-            {userLocation?.join(', ')}
         </div>
     )
 }
